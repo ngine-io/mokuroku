@@ -18,7 +18,7 @@ These metadata allow to make queries and filters easy:
 
 Hosts may be added or updated to the inventory on push or by an event trigger, such as a task in an Ansible® run. This is especially useful on large inventories with 1000s of hosts where a collection run is expensive.
 
-## Staled Hosts
+### Staled Hosts
 
 When hosts won't be refreshed by a collection run, they will get into a stale state before archived. This allows to run clean-up tasks such as e.g. DNS records removal.
 
